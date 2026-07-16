@@ -87,7 +87,7 @@ export default function Home() {
                 </div>
 
                 <h1 id="hero-title">
-                  Reliable software for complex, high-stakes systems.
+                  Building reliable software for enterprise and industrial operations.
                 </h1>
 
                 <p className="hero-summary">
