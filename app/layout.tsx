@@ -36,14 +36,14 @@ export const metadata: Metadata = {
     locale: "en_SG",
     title: "Tan Jia Chin | Software Engineer",
     description:
-      "Reliable software for complex, high-stakes systems. 9 years across enterprise applications, cloud delivery, security, and automation.",
+      "Building reliable software for enterprise and industrial operations. 9 years across enterprise applications, cloud delivery, security, and automation.",
     siteName: "Tan Jia Chin Portfolio",
   },
   twitter: {
     card: "summary",
     title: "Tan Jia Chin | Software Engineer",
     description:
-      "Reliable software for complex, high-stakes systems.",
+      "Building reliable software for enterprise and industrial operations.",
   },
   robots: {
     index: true,

@@ -2,7 +2,7 @@ export const personalInfo = {
   name: "Tan Jia Chin",
   preferredName: "Jerry",
   title: "Software Engineer",
-  tagline: "Reliable software for complex, high-stakes systems.",
+  tagline: "Building reliable software for enterprise and industrial operations.",
   email: "jerry_5777@hotmail.com",
   phone: "+65 8153 4289",
   location: "Singapore",
