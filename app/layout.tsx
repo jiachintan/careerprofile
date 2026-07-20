@@ -49,6 +49,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    "facebook-domain-verification": "4qvvkw4zzlbs10jr3oazefvjbjsmwb",
+  },
 };
 
 export const viewport: Viewport = {
