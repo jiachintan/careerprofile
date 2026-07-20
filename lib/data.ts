@@ -207,16 +207,6 @@ export const education = {
 
 export const portfolioProjects = [
   {
-    title: "Kanban Studio",
-    repo: "project-management-kanban",
-    description:
-      "A single-board Kanban application with an integrated Claude AI assistant. Manage tasks visually while the AI handles board operations via natural language — built with Next.js, FastAPI, SQLite, and Docker.",
-    technologies: ["Next.js", "TypeScript", "Python", "FastAPI", "Claude AI", "Docker", "SQLite"],
-    github: "https://github.com/jiachintan/project-management-kanban",
-    demo: null,
-    status: "live",
-  },
-  {
     title: "Knowledge Base Q&A Bot",
     repo: "knowledgebase_qa_bot_ai",
     description:

@@ -5,6 +5,7 @@ import {
   Mail,
   MapPin,
 } from "lucide-react";
+import Link from "next/link";
 import Footer from "@/components/layout/Footer";
 import Header from "@/components/layout/Header";
 import { GitHubIcon, LinkedInIcon } from "@/components/ui/SocialIcons";
@@ -317,6 +318,31 @@ export default function Home() {
             </div>
 
             <div className="work-grid">
+              <article className="work-card">
+                <div className="work-card-topline">
+                  <span>00</span>
+                  <span>Live product</span>
+                </div>
+                <div className="work-card-content">
+                  <p className="work-repo">dailyping</p>
+                  <h3>Daily Ping</h3>
+                  <p>
+                    A safety check-in iOS app that sends a daily reminder to confirm you&apos;re
+                    okay. Miss your window, and your trusted contacts are automatically alerted
+                    via email — built for peace of mind with one-tap simplicity.
+                  </p>
+                  <div className="work-tech">
+                    {["iOS", "Swift", "Push Notifications", "Email Alerts"].map((t) => (
+                      <span key={t}>{t}</span>
+                    ))}
+                  </div>
+                </div>
+                <Link href="/dailyping">
+                  Learn more
+                  <ArrowUpRight size={17} aria-hidden="true" />
+                </Link>
+              </article>
+
               {portfolioProjects.map((project, index) => (
                 <article className="work-card" key={project.repo}>
                   <div className="work-card-topline">
