@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import { ArrowUpRight, Menu, X } from "lucide-react";
+import Link from "next/link";
 
 const navigation = [
   { label: "About", href: "#about" },
@@ -48,6 +49,10 @@ export default function Header() {
         </nav>
 
         <div className="header-actions">
+          <Link href="/dailyping" className="header-contact">
+            Daily Ping
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </Link>
           <a className="header-contact" href="#contact">
             Contact
             <ArrowUpRight size={16} aria-hidden="true" />
@@ -78,8 +83,12 @@ export default function Header() {
               {item.label}
             </a>
           ))}
-          <a href="#contact" onClick={closeMenu} tabIndex={menuOpen ? 0 : -1}>
+          <Link href="/dailyping" onClick={closeMenu} tabIndex={menuOpen ? 0 : -1}>
             <span>05</span>
+            Daily Ping
+          </Link>
+          <a href="#contact" onClick={closeMenu} tabIndex={menuOpen ? 0 : -1}>
+            <span>06</span>
             Contact
           </a>
         </div>
